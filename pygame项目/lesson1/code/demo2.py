@@ -5,7 +5,6 @@
 # @File    : demo2.py
 
 
-
 import pygame
 pygame.init()
 

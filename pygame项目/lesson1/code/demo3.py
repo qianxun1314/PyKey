@@ -7,9 +7,10 @@
 import pygame
 pygame.init()
 
-screen = pygame.display.set_mode((600, 400))
+screen = pygame.display.set_mode((350, 500))
 pygame.display.set_caption("Author：千与千寻")
 ball = pygame.image.load("ball.png")
+bg = pygame.image.load("bg.jpg")
 ball_x = 0
 ball_y = 0
 is_running = True
@@ -19,5 +20,7 @@ while is_running:
             is_running = False
     screen.fill((200, 100, 100))
     ball_x += 1
+    ball_y += 1
+    screen.blit(bg, (0, 0))
     screen.blit(ball, (ball_x, ball_y))
     pygame.display.update()
