@@ -32,3 +32,4 @@ while is_running:
     screen.blit(bg, (0, 0))
     screen.blit(ball, ball_rect)
     pygame.display.update()
+
