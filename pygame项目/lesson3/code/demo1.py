@@ -8,6 +8,8 @@ import pygame
 pygame.init()
 screen = pygame.display.set_mode((350, 500))
 pygame.display.set_caption("Author：千与千寻")
+
+score = 0
 font = pygame.font.SysFont("arial", 40)
 is_running = True
 while is_running:
@@ -15,6 +17,6 @@ while is_running:
         if event.type == pygame.QUIT:
             is_running = False
     screen.fill((200, 100, 100))
-    textScore = font.render("Score: ", True, (0, 0, 0))
+    textScore = font.render("Score: " + str(score), True, (0, 0, 0))
     screen.blit(textScore, (200, 0))
     pygame.display.update()
