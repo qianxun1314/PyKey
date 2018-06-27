@@ -32,8 +32,8 @@
       <file leaf-file-name="demo2.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/demo2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="597">
-              <caret line="33" column="24" lean-forward="true" selection-start-line="27" selection-start-column="8" selection-end-line="35" selection-end-column="28" />
+            <state relative-caret-position="355">
+              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
               <folding>
                 <element signature="e#131#144#0" expanded="true" />
               </folding>
@@ -113,7 +113,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="x" value="62" />
     <option name="y" value="23" />
     <option name="width" value="1375" />
@@ -267,7 +267,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="62" y="23" width="1375" height="877" extended-state="1" />
+    <frame x="62" y="23" width="1375" height="877" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -398,8 +398,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/demo2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="597">
-          <caret line="33" column="24" lean-forward="true" selection-start-line="27" selection-start-column="8" selection-end-line="35" selection-end-column="28" />
+        <state relative-caret-position="355">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
           <folding>
             <element signature="e#131#144#0" expanded="true" />
           </folding>
