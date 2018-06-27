@@ -41,4 +41,8 @@ while is_running:
 
     if not ball1_rect.colliderect(ball2_rect):
         screen.blit(ball2, ball2_rect)
+    else:
+        score += 10
+
+
     pygame.display.update()
