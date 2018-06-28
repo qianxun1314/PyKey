@@ -45,4 +45,3 @@ while is_running:
     bg2.display()
     pygame.display.update()
 
-    
