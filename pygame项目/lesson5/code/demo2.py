@@ -36,7 +36,10 @@ class Hero(Sprite):
     def __init__(self, x, y):
         Sprite.__init__(self, x, y, "imgs/hero.png", 100, 124)
 
-
+    def moveLeft(self):
+        self.rect.x -= 30
+    def moveRight(self):
+        self.rect.x += 30
 
 
 screen = pygame.display.set_mode((480, 852))
@@ -53,9 +56,9 @@ while is_running:
             is_running = False
         elif event.type == KEYDOWN:
             if event.key == K_a:
-                hero.rect.x -= 30
+                hero.moveLeft()
             elif event.key == K_d:
-                hero.rect.x += 30
+                hero.moveRight()
 
 
     bg1.moveDownLoop()
