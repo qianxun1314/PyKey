@@ -53,9 +53,9 @@ while is_running:
             is_running = False
         elif event.type == KEYDOWN:
             if event.key == K_a:
-                hero.rect.x -= 20
+                hero.rect.x -= 30
             elif event.key == K_d:
-                hero.rect.x += 20
+                hero.rect.x += 30
 
 
     bg1.moveDownLoop()
